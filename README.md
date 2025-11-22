@@ -14,17 +14,22 @@ A deep learning pipeline to classify brain MRI images as tumor or healthy using 
 
 ---
 
-## 📁 Repository Structure
+<div style="background-color: #1e1e1e; color: #d4d4d4; border-radius: 8px; padding: 20px; font-family: 'Consolas', 'Monaco', 'Courier New', monospace; font-size: 14px; line-height: 1.5; box-shadow: 0 4px 6px rgba(0,0,0,0.3); border: 1px solid #333;">
+  <div style="margin-bottom: 15px; font-weight: bold; font-size: 16px; color: #569cd6; border-bottom: 1px solid #333; padding-bottom: 10px;">
+    📂 Repository Structure
+  </div>
+  <pre style="margin: 0; white-space: pre; color: #d4d4d4;">
+├── <span style="color: #E8BD36;">📁 notebooks/</span>
+│   └── <span style="color: #ce9178;">brain_tumor_classification.ipynb</span>  <span style="color: #6a9955;"># Main Colab notebook</span>
+├── <span style="color: #569cd6;">📄 final_brain_tumor_model_97.keras</span>   <span style="color: #6a9955;"># Saved trained model</span>
+├── <span style="color: #4ec9b0;">📊 model_predictions.csv</span>              <span style="color: #6a9955;"># Test predictions CSV</span>
+├── <span style="color: #4ec9b0;">📈 training_history1.csv</span>              <span style="color: #6a9955;"># Head training history</span>
+├── <span style="color: #4ec9b0;">📉 training_history2.csv</span>              <span style="color: #6a9955;"># Fine-tuning history</span>
+├── <span style="color: #E8BD36;">🖼️ images/</span>                            <span style="color: #6a9955;"># Example sample/test images (optional)</span>
+└── <span style="color: #569cd6;">📝 README.md</span>                          <span style="color: #6a9955;"># This file</span>
+  </pre>
+</div>
 
-├── notebooks/
-│ └── brain_tumor_classification.ipynb # Main Colab notebook
-├── final_brain_tumor_model_97.keras # Saved trained model
-├── model_predictions.csv # Test predictions CSV
-├── training_history1.csv # Head training history
-├── training_history2.csv # Fine-tuning history
-├── images/ # Example sample/test images (optional)
-├── README.md # This file
----
 
 ## ⚡ Quick Start
 
