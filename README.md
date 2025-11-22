@@ -24,8 +24,6 @@ A deep learning pipeline to classify brain MRI images as tumor or healthy using 
 ├── training_history2.csv # Fine-tuning history
 ├── images/ # Example sample/test images (optional)
 ├── README.md # This file
-
-
 ---
 
 ## ⚡ Quick Start
